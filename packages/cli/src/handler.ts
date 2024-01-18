@@ -142,6 +142,25 @@ const customChains: Chain[] = [
         testnet: false
     },
     {
+        id: 53049387904,
+        name: "Align Testnet",
+        network: "align-testnet",
+        nativeCurrency: {
+            name: "ETH",
+            symbol: "ETH",
+            decimals: 18
+        },
+        rpcUrls: {
+            default: {
+                http: ["https://rpc.align.network"]
+            },
+            public: {
+                http: ["https://rpc.align.network"]
+            }
+        },
+        testnet: false
+    },
+    {
         id: 22222,
         name: "Nautilus",
         network: "nautilus",
